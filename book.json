@@ -1,0 +1,127 @@
+{
+  "title": "移动端调试利器：Objection",
+  "description": "整理移动端调试利器，用Objection调试Android和iOS的程序。先是Objection的概览；然后是初始化开发环境；接着介绍通用逻辑，包括查看子命令的参数、hook函数的参数；然后是如何调试Android，主要包括android各种子命令，包括hooking、intent；而hooking下面有子命令list、watch、search；list下有子命令class_methods、class_method、services、activities、class_loaders；intent有子命令launch_activity；以及memory的各种子命令，包括search、dump；然后是调试iOS；以及常见问题，包括调试安卓的；最后给出附录，包括语法help、教程和资料。",
+  "pluginsConfig": {
+    "github-buttons": {
+      "buttons": [
+        {
+          "repo": "mobile_reverse_debug_objection",
+          "user": "crifan",
+          "type": "star",
+          "count": true,
+          "size": "small"
+        },
+        {
+          "user": "crifan",
+          "type": "follow",
+          "width": "120",
+          "count": false,
+          "size": "small"
+        }
+      ]
+    },
+    "sitemap-general": {
+      "prefix": "https://book.crifan.org/books/mobile_reverse_debug_objection/website/"
+    },
+    "toolbar-button": {
+      "url": "https://book.crifan.org/books/mobile_reverse_debug_objection/pdf/mobile_reverse_debug_objection.pdf",
+      "icon": "fa-file-pdf-o",
+      "label": "下载PDF"
+    },
+    "callouts": {
+      "showTypeInHeader": false
+    },
+    "theme-default": {
+      "showLevel": true
+    },
+    "disqus": {
+      "shortName": "crifan"
+    },
+    "prism": {
+      "css": [
+        "prism-themes/themes/prism-atom-dark.css"
+      ]
+    },
+    "sharing": {
+      "douban": false,
+      "facebook": true,
+      "google": false,
+      "hatenaBookmark": false,
+      "instapaper": false,
+      "line": false,
+      "linkedin": false,
+      "messenger": false,
+      "pocket": false,
+      "qq": true,
+      "qzone": false,
+      "stumbleupon": false,
+      "twitter": true,
+      "viber": false,
+      "vk": false,
+      "weibo": true,
+      "whatsapp": false,
+      "all": [
+        "douban",
+        "facebook",
+        "google",
+        "instapaper",
+        "line",
+        "linkedin",
+        "messenger",
+        "pocket",
+        "qq",
+        "qzone",
+        "stumbleupon",
+        "twitter",
+        "viber",
+        "vk",
+        "weibo",
+        "whatsapp"
+      ]
+    },
+    "tbfed-pagefooter": {
+      "copyright": "crifan.org，使用<a href='https://creativecommons.org/licenses/by/4.0/deed.zh'>署名4.0国际(CC BY 4.0)协议</a>发布",
+      "modify_label": "最后更新：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "donate": {
+      "wechat": "https://www.crifan.org/files/res/crifan_com/crifan_wechat_pay.jpg",
+      "alipay": "https://www.crifan.org/files/res/crifan_com/crifan_alipay_pay.jpg",
+      "title": "",
+      "button": "打赏",
+      "alipayText": "支付宝打赏给Crifan",
+      "wechatText": "微信打赏给Crifan"
+    }
+  },
+  "author": "Crifan Li <admin@crifan.com>",
+  "language": "zh-hans",
+  "root": "./src",
+  "links": {
+    "sidebar": {
+      "主页": "http://www.crifan.org"
+    }
+  },
+  "plugins": [
+    "theme-comscore",
+    "anchors",
+    "expandable-menu",
+    "-lunr",
+    "-search",
+    "search-plus",
+    "disqus",
+    "-highlight",
+    "prism",
+    "prism-themes",
+    "github-buttons",
+    "-splitter",
+    "splitter-nosessionbutcookie",
+    "-sharing",
+    "sharing-plus",
+    "tbfed-pagefooter",
+    "donate",
+    "sitemap-general",
+    "copy-code-button",
+    "callouts",
+    "toolbar-button"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "移动端调试利器：Objection",
+  "description": "整理移动端调试利器，用Objection调试Android和iOS的程序。先是Objection的概览；然后是初始化开发环境；接着介绍通用逻辑，包括查看子命令的参数、hook函数的参数；然后是如何调试Android，主要包括android各种子命令，包括hooking、intent；而hooking下面有子命令list、watch、search；list下有子命令class_methods、class_method、services、activities、class_loaders；intent有子命令launch_activity；以及memory的各种子命令，包括search、dump；然后是调试iOS；以及常见问题，包括调试安卓的；最后给出附录，包括语法help、教程和资料。",
+  "pluginsConfig": {
+    "github-buttons": {
+      "buttons": [
+        {
+          "repo": "mobile_reverse_debug_objection"
+        }
+      ]
+    },
+    "sitemap-general": {
+      "prefix": "https://book.crifan.org/books/mobile_reverse_debug_objection/website/"
+    },
+    "toolbar-button": {
+      "url": "https://book.crifan.org/books/mobile_reverse_debug_objection/pdf/mobile_reverse_debug_objection.pdf"
+    }
+  }
+}
